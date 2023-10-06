@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    max-width: 2000px;
+}
+
+.topo {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    align-items: center;
+}
+
+.logo a{
+    font-size: 36px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.links-topo a{
+    text-decoration: none;
+    width: 40%;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.banner {
+    background-image: url(./images/1vitrine-confeitaria.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size:120px;
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    background-color: bisque;
+}
+.sobre p{
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    width: 50%;
+}
+
+.contato {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.contato p{
+    font-size: 18px;
+    color: #fff;
+}
